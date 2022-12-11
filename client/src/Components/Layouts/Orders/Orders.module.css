@@ -1,0 +1,25 @@
+.items {
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: meals-appear 1s ease-out forwards;
+  padding: 2rem;
+}
+.order {
+  padding: 10px;
+  margin: 10px;
+}
+.middle {
+  margin: 0 auto;
+}
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
